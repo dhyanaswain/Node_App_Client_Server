@@ -1,5 +1,5 @@
-# Node_App_Client_Server
-Node Client &amp; Node Server
+# This Node Client App
+This Node Client App Running in 3001 Port
 following components:
 
 Web framework
@@ -47,3 +47,15 @@ $ npm run test
 ```bash
 $ npm start
 ```
+
+## Postman
+1. http://localhost:3001/server 
+    body: {
+        "massage": "How many clients we want to create from this 1 Node client"
+    }
+
+    res: {
+        "message": {
+            "node": 6
+        }
+    }
